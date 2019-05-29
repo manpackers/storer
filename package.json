@@ -1,0 +1,62 @@
+{
+  "name": "@manpacker/storer",
+  "version": "0.0.0",
+  "description": "",
+  "bin": {
+    "manpacker-storer": "./bin/cli"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test:server": "manpacker server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manpackers/storer.git"
+  },
+  "keywords": [
+    "manpacker",
+    "rollup",
+    "webpack",
+    "build",
+    "babel",
+    "library"
+  ],
+  "author": {
+    "name": "winterfete"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manpackers/storer/issues"
+  },
+  "homepage": "https://github.com/manpackers/storer#readme",
+  "dependencies": {
+    "deepmerge": "^3.2.0",
+    "rollup": "^1.12.4",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-eslint": "^6.0.0",
+    "rollup-plugin-filesize": "^6.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-less": "^1.1.2",
+    "rollup-plugin-node-resolve": "^5.0.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-uglify": "^6.0.2"
+  },
+  "devDependencies": {
+    "@manpacker/generator": "^1.8.0",
+    "babel-preset-manpacker": "^1.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-manpacker": "^1.5.1",
+    "jquery": "^3.4.1"
+  },
+  "babel": {
+    "presets": [
+      "manpacker"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "manpacker"
+    ]
+  }
+}
